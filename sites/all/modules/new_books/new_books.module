@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the New Books feature.
+ */
+
+include_once 'new_books.features.inc';
