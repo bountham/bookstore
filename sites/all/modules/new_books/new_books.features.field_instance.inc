@@ -95,46 +95,6 @@ function new_books_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-book_title-field_book_title'
-  $field_instances['node-book_title-field_book_title'] = array(
-    'bundle' => 'book_title',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'text',
-        'settings' => array(),
-        'type' => 'text_default',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_book_title',
-    'label' => 'Book Title',
-    'required' => 1,
-    'settings' => array(
-      'text_processing' => 0,
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'active' => 1,
-      'module' => 'text',
-      'settings' => array(
-        'size' => 60,
-      ),
-      'type' => 'text_textfield',
-      'weight' => 1,
-    ),
-  );
-
   // Exported field_instance: 'node-book_title-field_rating'
   $field_instances['node-book_title-field_rating'] = array(
     'bundle' => 'book_title',
@@ -175,7 +135,6 @@ function new_books_field_default_field_instances() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Book Author');
-  t('Book Title');
   t('Rating');
   t('Review Body');
 
